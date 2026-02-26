@@ -99,21 +99,21 @@ class _AboutScreenState extends State<AboutScreen> {
               _buildListTile(
                 icon: Icons.language,
                 title: 'Website',
-                subtitle: 'www.scrapbookmemories.com',
-                onTap: () => _launchURL('https://www.scrapbookmemories.com'),
+                subtitle: 'www.memoraapp.com',
+                onTap: () => _launchURL('https://www.memoraapp.com'),
               ),
               _buildListTile(
                 icon: Icons.email,
                 title: 'Contact Us',
-                subtitle: 'support@scrapbookmemories.com',
-                onTap: () => _launchURL('mailto:support@scrapbookmemories.com'),
+                subtitle: 'support@memoraapp.com',
+                onTap: () => _launchURL('mailto:support@memoraapp.com'),
               ),
             ],
           ),
           const SizedBox(height: 32),
           Center(
             child: Text(
-              '© 2024 Scrapbook Memories\nAll rights reserved',
+              '© 2026 Memora\nAll rights reserved',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 12,
@@ -168,7 +168,7 @@ class _AboutScreenState extends State<AboutScreen> {
           ),
           const SizedBox(height: 16),
           const Text(
-            'Scrapbook Memories',
+            'Memora',
             style: TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,
@@ -283,10 +283,10 @@ class _AboutScreenState extends State<AboutScreen> {
       builder: (context) => _buildLegalDialog(
         title: 'Privacy Policy',
         content: '''
-Last updated: January 2024
+Last updated: February 2026
 
 1. Information We Collect
-We collect information you provide directly to us when using Scrapbook Memories, including photos, notes, and other content you create.
+We collect information you provide directly to us when using Memora, including photos, notes, and other content you create.
 
 2. How We Use Your Information
 - To provide and maintain our service
@@ -309,7 +309,7 @@ Our service is not directed to children under 13. We do not knowingly collect in
 We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app.
 
 8. Contact Us
-If you have questions about this privacy policy, please contact us at support@scrapbookmemories.com
+If you have questions about this privacy policy, please contact us at support@memoraapp.com
 ''',
       ),
     );
@@ -321,10 +321,10 @@ If you have questions about this privacy policy, please contact us at support@sc
       builder: (context) => _buildLegalDialog(
         title: 'Terms of Service',
         content: '''
-Last updated: January 2024
+Last updated: February 2026
 
 1. Acceptance of Terms
-By accessing and using Scrapbook Memories, you accept and agree to be bound by these Terms of Service.
+By accessing and using Memora, you accept and agree to be bound by these Terms of Service.
 
 2. Use License
 We grant you a personal, non-transferable license to use the app for personal, non-commercial purposes.

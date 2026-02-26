@@ -258,7 +258,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               ),
               _buildInfoTile(
                 title: 'Developer',
-                value: 'Scrapbook Memories Team', theme: Provider.of<ThemeProvider>(context).currentTheme,
+                value: 'Memora Team', theme: Provider.of<ThemeProvider>(context).currentTheme,
               ),
             ],
           ),

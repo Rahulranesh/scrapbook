@@ -27,20 +27,20 @@ void main() async {
   runApp(
     ChangeNotifierProvider(
       create: (_) => ThemeProvider(),
-      child: const ScrapbookMemoriesApp(),
+      child: const MemoraApp(),
     ),
   );
 }
 
-class ScrapbookMemoriesApp extends StatelessWidget {
-  const ScrapbookMemoriesApp({super.key});
+class MemoraApp extends StatelessWidget {
+  const MemoraApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'Scrapbook Memories',
+          title: 'Memora',
           debugShowCheckedModeBanner: false,
           theme: themeProvider.currentTheme.toThemeData(),
           home: const SplashScreen(),

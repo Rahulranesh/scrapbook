@@ -17,7 +17,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<Map<String, dynamic>> _pages = [
     {
-      'title': 'Welcome to\nScrapbook Memories',
+      'title': 'Welcome to\nMemora',
       'description': 'Create beautiful vintage-style scrapbooks to preserve your precious memories',
       'icon': Icons.auto_stories,
       'color': Color(0xFFC19A6B),
